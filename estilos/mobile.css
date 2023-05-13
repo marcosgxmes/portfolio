@@ -2,7 +2,7 @@
 
 /* telas pequenas */
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
 
     html, body {
         background-color: white;
@@ -17,6 +17,10 @@
         flex-direction: column;
         align-items: center;
         background-color: white ;
+    }
+
+    .grid-container > div {
+        display: block;
     }
 
     
@@ -120,7 +124,7 @@
     padding: 3rem 2rem;
 }
 
-#footer {
+#footer_copright {
     background-color: black;
     padding: 4px;
     display: block;
@@ -129,6 +133,14 @@
     text-align: center;
     font-style: italic;
 
+}
+
+#footer_content {
+    background-color: var(--color-neutral-10);
+}
+
+#input_group button {
+    background-color:#233eff ;
 }
     
 }

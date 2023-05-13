@@ -10,7 +10,7 @@
 
 @font-face {
     font-family:'old';
-    src: url('../OldNewspaperTypes.ttf') format(truetype);
+    src: url('../fonts/OldNewspaperTypes.ttf') format(truetype);
     font-weight: normal;
     font-style: normal;
 }
@@ -23,7 +23,7 @@
     }
 
 html, body {
-    background-color: black;
+    background-color: var(--color-neutral-0);
 }
 
 h1:not(.ctt) {
@@ -42,14 +42,14 @@ h2 {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 1rem;
-    background-color:black;
+    background-color:var(--color-neutral-0);
     padding: 10px;
 
 }
 
 .grid-container > div {
     color: white;
-    background-color: var(--color-neutral-10);
+    background-color: rgb(39, 39, 41);
     border-radius: 10px;
     
 }
@@ -218,7 +218,7 @@ footer {
     }
     
     #footer_content {
-        background-color: var(--color-neutral-10);
+        background-color: rgb(39, 39, 41);
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -343,7 +343,7 @@ footer {
     
     
     #input_group button {
-        background-color: var(--color-neutral-30);
+        background-color: rgb(132, 131, 131);
         border: none;
         color: var(--color-neutral-40);
         padding: 0px 1.5rem;
@@ -361,8 +361,25 @@ footer {
         opacity: 0.8;
     }
 
-    #footer {
+    #footer_copright {
         display: none;
+        justify-content: center;
+        background-color: var(--color-neutral-0);
+        font-size: 0.9rem;
+        padding: 5px;
+        font-weight: 100;
+    }
+
+    #footer_copright > p > a {
+        color: white;
+        text-decoration: none;
+        font-style: italic;
+    }
+    
+    
+    #footer_copright > p > a:hover {
+        color: #233eff;
+        text-decoration:underline;
     }
 
     

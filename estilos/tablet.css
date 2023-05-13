@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 769px) and (max-width: 993px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
    
     html, body {
         background-color: white;
@@ -138,6 +138,10 @@
 
 .footer-link {
     margin: 10px 0;
+}
+
+#input_group button {
+    background-color:#233eff ;
 }
 
 
