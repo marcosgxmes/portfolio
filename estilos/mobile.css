@@ -101,6 +101,12 @@
         text-align: justify;
     }
 
+    .code {
+        display: block;
+        margin: 0 auto;
+        
+    }
+
     .grid-item5 {
         margin-top: 20px;
         display: block;

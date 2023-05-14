@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 993px) {
    
     html, body {
         background-color: white;
@@ -19,6 +19,13 @@
 
     .grid-container div p {
         max-width: 600px;
+    }
+
+    .code {
+        display: block;
+        margin: 0 auto;
+        max-width: 400px;
+        
     }
 
     
@@ -141,7 +148,18 @@
 }
 
 #input_group button {
-    background-color:#233eff ;
+    background-color:#233dffc4 ;
+}
+
+#footer_copright {
+    background-color: black;
+    padding: 4px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic;
+
 }
 
 

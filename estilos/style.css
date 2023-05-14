@@ -120,6 +120,8 @@ img.coveralbum {
 strong.red {
     
     color: rgba(255, 0, 0, 0.831);
+    font-family: 'old';
+    font-style: italic;
 }
 
 .toggle{
@@ -191,7 +193,11 @@ menu li {
 .grid-item4 img {
     margin: 30px 0px;
     align-items: center;
-    border-radius: 50%;
+    
+}
+
+.code {
+    display: none;
 }
 
 .grid-item5 {
